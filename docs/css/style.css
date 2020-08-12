@@ -216,7 +216,7 @@ input[type="submit"]:hover{
     margin-left: -240px;
 }
   #whatsapp{
-      width: 5%;
+      width: 10%;
     display: block;
     font-size: 50px;
     margin:0px auto;
@@ -228,7 +228,7 @@ input[type="submit"]:hover{
 }
 
 #insta{
-    width: 5%;
+    width: 10%;
     display: block;
     font-size: 50px;
     margin:0px auto;
