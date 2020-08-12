@@ -14,6 +14,45 @@ body{
      background-color: #d0505f;
 }
 
+p{
+    margin: 0px auto;
+  
+    font-family: sans-serif;
+    text-align: left;
+    font-size: 20px;
+    line-height: 120px;
+}
+
+input[type="email"]{
+    display: block;
+    padding:10px;
+    margin: 0px auto;
+    color:gray;
+    border:1px solid #791c27;
+    box-shadow: 0px 0px 2px #ccc inset;
+    text-align: center;
+}
+input[type="email"]:focus{
+color:black;
+border: 3px solid #d0505f;
+}
+
+input[type="submit"]{
+    display: block;
+    background-color: #c95562;
+    border-radius: 15px;
+    width: 100px;
+    padding: 10px;
+    margin:0px auto;
+    margin-top:10px;
+    color:white;
+}
+
+input[type="submit"]:hover{
+    background-color: #d0505f;
+    box-shadow: 0px 0px 2px gray;
+}
+
 #header{
     width: 100%;
     height: 153px;
@@ -29,10 +68,13 @@ body{
     width: 350px;   
     margin:0px auto;
     margin-bottom:10px;;
-    margin-top: 5px;
+    margin-top: 40px;
 }
 
 #nav-bar{
+    
+    position: fixed;
+    margin-top:-281px ;
     min-width: 100%;
     background-color: #9e2d3a;
     color:white;
@@ -83,7 +125,161 @@ body{
     width: 1250px;
     min-height: 1100px;
     margin: 0 auto;
+    margin-top: 50px;
     font-family: sans-serif,Arial, Helvetica;
 }
 
+#contenedor h1{
+    text-align:  left;
+    font-size:40px;
+    text-transform: uppercase;
+    color: white;
+    font-family: "pmarket";
+    text-shadow: 0px 2px 1px #333333;
+    transition: 300ms;
+
+}
+
+#contenedor h1:hover{
+    text-shadow: 0px 2px 1px #333333, 0px 0px 4px #791c27 ;
+}
+
+#contenedor #carta, #promociones{
+    display:block;
+    width: 79%;
+    margin: 0px auto;
+    margin-bottom: 50px;   
+
+}
+
+#contenedor #contacto{
+    display:block;
+    width: 71%;
+    margin: 0px auto;
+    margin-left:157px;
+    margin-bottom: 50px;
+    min-height: 500px;
+    background-color: #fe8e9c;
+    box-shadow: 6px 9px 4px #791c27;
+}
+
+#contenedor #carta .cartas{
+    width: 275px;
+    margin-left: 25px;
+    box-shadow: 6px 9px 4px #791c27;
+    transition: 300ms;
+    cursor: pointer;
+}
+#contenedor #carta .cartas:hover{
+
+    width: 320px;
+
+}
+#contenedor #promociones .cartas{
+    width: 275px;
+    margin-left: 25px;
+    box-shadow: 6px 9px 4px #791c27;
+    transition: 300ms;
+    cursor:pointer;
+}
+
+#contenedor #promociones .cartas:hover{
+    width:320px;
+
+}
+
+#contenedor h2{
+    position: absolute;
+    font-size: 35px;
+    letter-spacing: 2px;
+    float: left;
+    margin-top: 250px;
+    margin-left: -120px;
+    font-family: "pmarket";
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 0px 2px 1px #333333;
+    transition: 300ms;
+}
+
+#contenedor h2:hover{
+    text-shadow: 0px 2px 1px #333333, 0px 0px 4px #791c27 ;
+}
+
+#contenedor > #promociones > h2{
+    font-size: 30px;
+    margin-left: -240px;
+}
+
+#contenedor > #contacto > h2{
+    font-size: 30px;
+    margin-left: -240px;
+}
+  #whatsapp{
+      width: 5%;
+    display: block;
+    font-size: 50px;
+    margin:0px auto;
+    margin-top: -20px;
+    text-align: center;
+    color:#00e676;
+    transition: 300ms;
+    text-shadow: 0px 2px 1px #333333, 0px 0px 4px #791c27 ;
+}
+
+#insta{
+    width: 5%;
+    display: block;
+    font-size: 50px;
+    margin:0px auto;
+    margin-top: -20px;
+    text-align: center;
+    color:#753DB8;
+    transition: 300ms;
+    text-shadow: 0px 2px 1px #333333, 0px 0px 4px #791c27 ;
+
+}
+
+#insta:hover, #whatsapp:hover{
+
+    font-size: 100px
+}
+
+#insta:active, #whatsapp:active{
+
+    color:black;
+    text-shadow: 2px 2px 5px #333333, 0px 0px 6px #791c27 inset;
+}
+
+#contacto label{
+    display: block;
+    text-align: center;
+    padding: 10px;
+    margin-top: 0px;
+    font-family: "pmarket";
+    font-size: 25px;
+    color:white;
+    text-shadow: 0px 2px 1px #333333;
+}
+
+.datos{
+    clear:both;
+    display: block;
+    text-align: center;
+    margin: 0px auto;
+    margin-top: -39px;
+    font-family: "pmarket";
+    
+}
+
+
+#hidden{
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    #hidden {
+      display:block;
+    }
+  }
 
